@@ -1,4 +1,5 @@
 # how-to-make-gorilla-tag-mods
+<img width="160" height="203" alt="image" src="https://github.com/user-attachments/assets/468f446b-cbf4-471d-bc2d-84059bffab54" />
 
 # JUST UPDATED
 ## 🧰 Requirements
