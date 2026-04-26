@@ -51,4 +51,4 @@ Use in **private lobbies or offline only**.
 
 ## 📜 License
 
-MIT License
+[License](https://github.com/QuantumPlayworks/how-to-make-gorilla-tag-mods/blob/main/LICENSE)
