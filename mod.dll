@@ -1,0 +1,28 @@
+using BepInEx;
+using UnityEngine;
+
+[BepInPlugin("com.yourname.gorillatagmod", "Gorilla Tag Mod", "1.0.0")]
+public class Plugin : BaseUnityPlugin
+{
+    float defaultSpeed = 6f;
+    float boostedSpeed = 12f;
+
+    void Update()
+    {
+        // Press P log
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("Mod is working!");
+        }
+
+        // Hold Shift for speed boost
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            GorillaLocomotion.Player.Instance.maxJumpSpeed = boostedSpeed;
+        }
+        else
+        {
+            GorillaLocomotion.Player.Instance.maxJumpSpeed = defaultSpeed;
+        }
+    }
+}
